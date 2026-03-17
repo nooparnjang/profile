@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Anuphan", sans-serif;
+    background-image: linear-gradient(rgb(26, 26, 26) 100%, rgb(0, 0, 0) 0%);
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.forNav {
+    font-size: 16px;
+    color: #a6a6a6;
+    text-decoration: none;
+
+    transition: 0.1s ease-in;
+}
+
+.forNav:hover {
+    color: #656565;
+}
+
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.forAll {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forAll2 {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.forAll3 {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#myName {
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: bold;
+    background: linear-gradient(to right, #1B84C9, #fff);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+#myCareer {
+    margin-top: 0;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+#full {
+    color: #EF4A4A;
+}
+
+.cursor{
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink{
+  50% { opacity: 0; }
+}
+
+.proBox {
+    width: 432px;
+    height: 472px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proName {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nah {
+    margin: 0;
+    width: 430px;
+    height: 2px;
+    background-color: #3a3a3a;
+}
+
+.proDis {
+    font-size: 40px;
+    color: #2a2a2a;
+    text-align: center;
+    font-weight: bold;
+}
+
+#FFF {
+    width: 202px;
+    height: 46px;
+    border-radius: 100px;
+    border: none;
+    background-color: #34386B;
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    
+    transition: 0.1s ease-in;
+}
+
+#FFF:hover {
+    background-color: #a5a5a5;
+    color: #34386B;
+}
+
+#Kinsud {
+    width: 202px;
+    height: 46px;
+    border-radius: 100px;
+    border: none;
+    background-color: #34386B;
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    
+    transition: 0.1s ease-in;
+}
+
+#Kinsud:hover {
+    background-color: #a5a5a5;
+    color: #34386B;
+}
+
+#SB {
+    width: 202px;
+    height: 46px;
+    border-radius: 100px;
+    border: none;
+    background-color: #34386B;
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+
+    transition: 0.1s ease-in;
+}
+
+#SB:hover {
+    background-color: #a5a5a5;
+    color: #34386B;
+}
+
+.butt {
+    margin-top: 50px;
+}
+
+#me {
+    width: 648px;
+    height: 472px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.han {
+    margin: 0;
+    width: 644px;
+    height: 2px;
+    background-color: #3a3a3a;
+}
+
+#infor {
+    height: auto;
+    width: 648px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all_infor {
+    height: 336.4px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: baseline;
+}
+
+#tua {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 40px;
+
+    width: 608px;
+}
+
+#gu {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 10px solid #1B84C9;
+}
+
+.mewei {
+    font-size: 18px;
+    padding-left: 60px;
+}
+
+#colors {
+    width: 202px;
+    height: 46px;
+    border-radius: 100px;
+    border: none;
+    background-color: #34386B;
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0;
+
+    transition: 0.1s ease-in;
+}
+
+#colors:hover {
+    background-color: #a5a5a5;
+    color: #34386B;
+}
+
+.conbox {
+    width: 1033px;
+    height: 159px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.con_name {
+    width: 1033px;
+    height: 65px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    gap: 30px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.con_name2 {
+    width: 1033px;
+    height: 65px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    align-items: center;
+    gap: 30px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.con_logo {
+    width: auto;
+    height: 65px;
+}
+
+.con_ti {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#con_ig {
+    width: 1033px;
+    height: 74px;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+    transition: 0.1s ease-in;
+}
+
+#con_line {
+    width: 1033px;
+    height: 74px;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+    transition: 0.1s ease-in;
+}
+
+#con_gmail {
+    width: 1033px;
+    height: 74px;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+    transition: 0.1s ease-in;
+}
+
+#con_ig:hover {
+    border: none;
+    background-color: #3a3a3a;
+}
+
+#con_line:hover {
+    border: none;
+    background-color: #3a3a3a;
+}
+
+#con_gmail:hover {
+    border: none;
+    background-color: #3a3a3a;
+}
