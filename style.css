@@ -74,6 +74,18 @@ header {
     gap: 20px;
 }
 
+.forAll4 {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 20px;
+
+    cursor: default;
+}
+
 #myName {
     margin-bottom: 0;
     font-size: 70px;
@@ -404,4 +416,34 @@ header {
 #con_gmail:hover {
     border: none;
     background-color: #3a3a3a;
+}
+
+.blog_head {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#blog_img {
+    width: 90vw;
+    height: auto;
+}
+
+.blog_text {
+    color: white;
+    font-size: 25px;
+    padding-right: 70px;
+}
+
+.blog_ol {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.blog_text_ol {
+    color: white;
+    font-size: 25px;
 }
