@@ -250,7 +250,7 @@ header {
 #tua {
     font-size: 40px;
     font-weight: bold;
-    padding-left: 40px;
+    padding-left: 60px;
 
     width: 608px;
 }
@@ -572,6 +572,7 @@ header {
         height: auto;
         min-width: 0;
         flex: 1;
+        padding-top: 1.5rem;
     }
 
     #tua {
@@ -581,10 +582,11 @@ header {
         box-sizing: border-box;
         align-self: flex-start;
         text-align: left;
+        padding-left: 2rem;
     }
 
     .mewei {
-        padding-left: 0;
+        padding-left: 2rem;
     }
 
     #gu {
@@ -593,6 +595,7 @@ header {
         aspect-ratio: 1;
         box-sizing: border-box;
         flex-shrink: 0;
+        margin-right: 2.5rem;
     }
 
     .conbox,
@@ -729,6 +732,7 @@ header {
         flex: none;
         flex: 1;
         align-items: flex-start;
+        padding-top: 1.5rem;
     }
 
     .mewei {
@@ -739,6 +743,7 @@ header {
     #gu {
         width: clamp(96px, 32vw, 150px);
         flex-shrink: 0;
+        margin-right: 2.5rem;
     }
 
     .con_name,
