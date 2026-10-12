@@ -17,38 +17,17 @@
             </ul>
         </nav>
     </header>
-    <div class="forAll2">
-        <div class="proBox">
-            <p class="proName">Triple F</p>
-            <hr class="nah">
-            <p class="proDis">Pixel Art Game<br>ในธีมบาทหลวงฆ่าซอมบี้</p>
-            <div class="butt">
-                <button id="FFF" onclick="">
-                MORE
-                </button>
-            </div>
+    <main class="forAll2 projectGrid" id="projectList"></main>
+    <dialog class="projectDialog" id="projectDialog" aria-labelledby="projectDialogTitle" aria-describedby="projectDialogDescription">
+        <div class="projectDialogHeader">
+            <h2 id="projectDialogTitle"></h2>
+            <button class="projectDialogClose" id="projectDialogClose" type="button" aria-label="Close dialog">&times;</button>
         </div>
-        <div class="proBox">
-            <p class="proName">Forest of Paradise</p>
-            <hr class="nah">
-            <p class="proDis">Visual novel Game<br>ในธีมป่าหิมพานต์</p>
-            <div class="butt">
-                <button id="Kinsud">
-                    MORE
-                </button>
-            </div>
+        <p class="projectDialogDescription" id="projectDialogDescription"></p>
+        <div class="projectDialogActions">
+            <a class="projectLink projectDialogLink" id="projectDialogLink" target="_blank" rel="noopener noreferrer">Open project</a>
         </div>
-        <div class="proBox">
-            <p class="proName">SafeBite</p>
-            <hr class="nah">
-            <p class="proDis">เว็บแอปพลิเคชัน<br>สำหรับแจ้งสุนัขจรจัด</p>
-            <div class="butt">
-                <button id="SB">
-                    MORE
-                </button>
-            </div>
-        </div>
-    </div>
+    </dialog>
 
     <script src="script1.js" type="module"></script>
 </body>
