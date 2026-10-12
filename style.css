@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: "Anuphan", sans-serif;
     background-image: linear-gradient(rgb(26, 26, 26) 100%, rgb(0, 0, 0) 0%);
+    overflow-x: hidden;
 }
 
 .logo {
