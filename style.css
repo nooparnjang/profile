@@ -448,3 +448,338 @@ header {
     color: white;
     font-size: 25px;
 }
+
+.forAll2:has(.proBox) {
+    height: auto;
+    min-height: 80vh;
+    padding: 32px 5%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    justify-content: center;
+    align-items: stretch;
+    justify-items: center;
+    gap: 24px;
+}
+
+.forAll2:has(.proBox) .proBox {
+    width: 100%;
+    max-width: 432px;
+    height: auto;
+    min-height: 472px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.forAll2:has(.proBox) .nah {
+    width: 100%;
+}
+
+.forAll2:has(.proBox) .proDis {
+    font-size: clamp(24px, 3vw, 36px);
+    overflow-wrap: anywhere;
+}
+
+.forAll2:has(.proBox) .butt {
+    margin-top: auto;
+    padding-top: 32px;
+}
+
+@media (max-width: 1350px) {
+    .forAll2 {
+        height: auto;
+        min-height: 80vh;
+        padding: 32px 5%;
+        box-sizing: border-box;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .proBox {
+        width: min(100%, 432px);
+        box-sizing: border-box;
+    }
+
+    .nah {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 20px 5%;
+        gap: 12px;
+    }
+
+    nav {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .nav__links {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    .nav__links li {
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    #myName {
+        max-width: 100%;
+        font-size: clamp(36px, 6vw, 58px);
+        line-height: 1.15;
+        text-wrap: balance;
+    }
+
+    .forAll3 {
+        height: auto;
+        min-height: 80vh;
+        padding: 32px 5%;
+        box-sizing: border-box;
+        gap: 24px;
+        align-items: center;
+    }
+
+    #me {
+        width: min(100%, 648px);
+        height: auto;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+
+    .han,
+    #infor {
+        width: 100%;
+    }
+
+    #infor {
+        height: auto;
+        justify-content: center;
+        gap: 16px;
+        min-width: 0;
+    }
+
+    #all_infor {
+        width: min(100%, 350px);
+        height: auto;
+        min-width: 0;
+        flex: 1;
+    }
+
+    #tua {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+        box-sizing: border-box;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .mewei {
+        padding-left: 0;
+    }
+
+    #gu {
+        width: clamp(160px, 25vw, 250px);
+        height: auto;
+        aspect-ratio: 1;
+        box-sizing: border-box;
+        flex-shrink: 0;
+    }
+
+    .conbox,
+    .con_name,
+    .con_name2,
+    #con_ig,
+    #con_line,
+    #con_gmail {
+        width: 100%;
+        max-width: 1033px;
+        box-sizing: border-box;
+    }
+
+    .conbox {
+        height: auto;
+    }
+
+    #con_ig,
+    #con_line,
+    #con_gmail {
+        min-height: 74px;
+        height: auto;
+        padding: 10px;
+        overflow-wrap: anywhere;
+    }
+
+    .forAll4 {
+        height: auto;
+        margin: 32px 5%;
+        min-width: 0;
+    }
+
+    #blog_img {
+        max-width: 100%;
+    }
+
+    .blog_text {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 5%;
+        gap: 6px;
+    }
+
+    .logo {
+        flex: 0 0 50px;
+    }
+
+    nav {
+        width: auto;
+        flex: 1;
+    }
+
+    .nav__links {
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        gap: 0;
+    }
+
+    .nav__links li {
+        padding: 0 clamp(3px, 1.2vw, 8px);
+    }
+
+    .forNav {
+        font-size: clamp(12px, 3.8vw, 16px);
+    }
+
+    .forAll {
+        height: auto;
+        min-height: 90vh;
+        padding: 16px 5%;
+        box-sizing: border-box;
+    }
+
+    #myName {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(18px, 6.2vw, 38px);
+        line-height: 1.15;
+        overflow-wrap: normal;
+        text-wrap: balance;
+    }
+
+    #myCareer {
+        max-width: 100%;
+        font-size: clamp(18px, 4.5vw, 30px);
+    }
+
+    .forAll2,
+    .forAll3 {
+        min-height: 0;
+        padding: 24px 5%;
+        margin-bottom: 0;
+    }
+
+    .proBox {
+        height: auto;
+        min-height: 420px;
+        padding: 16px;
+    }
+
+    .proName,
+    .proDis {
+        font-size: clamp(24px, 7vw, 30px);
+    }
+
+    .butt {
+        margin-top: 32px;
+    }
+
+    #me {
+        padding: 20px 16px;
+    }
+
+    #tua {
+        font-size: clamp(22px, 7vw, 32px);
+    }
+
+    #infor {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #all_infor {
+        width: auto;
+        min-width: 0;
+        flex: none;
+        flex: 1;
+        align-items: flex-start;
+    }
+
+    .mewei {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    #gu {
+        width: clamp(96px, 32vw, 150px);
+        flex-shrink: 0;
+    }
+
+    .con_name,
+    .con_name2 {
+        height: 56px;
+        gap: 16px;
+    }
+
+    .con_logo {
+        height: 48px;
+    }
+
+    .con_ti {
+        font-size: 30px;
+    }
+
+    #con_ig,
+    #con_line,
+    #con_gmail {
+        min-height: 60px;
+        margin-top: 12px;
+        font-size: clamp(16px, 4.5vw, 24px);
+    }
+
+    .forAll4 {
+        margin: 24px 5%;
+        gap: 16px;
+    }
+
+    .blog_head {
+        font-size: clamp(24px, 7vw, 30px);
+    }
+
+    .blog_text,
+    .blog_text_ol {
+        font-size: 18px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+    }
+
+    .blog_ol {
+        padding-left: 24px;
+    }
+}
